@@ -1,0 +1,2 @@
+$_mod.def("/marko-starter-demo$1.0.9/src/routes/hello/components/stop-watch/index.marko.register",function(o,r,e,t,s){o("/marko$4.7.1/components-browser.marko").register("/marko-starter-demo$1.0.9/src/routes/hello/components/stop-watch/index.marko",o("/marko-starter-demo$1.0.9/src/routes/hello/components/stop-watch/index.marko"))});
+$_mod.run("/marko-starter-demo$1.0.9/src/routes/hello/components/stop-watch/index.marko.register");

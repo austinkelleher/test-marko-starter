@@ -1,0 +1,2 @@
+$_mod.def("/marko-starter-demo$1.0.9/src/components/click-count/index.marko.register",function(o,r,e,c,m){o("/marko$4.7.1/components-browser.marko").register("/marko-starter-demo$1.0.9/src/components/click-count/index.marko",o("/marko-starter-demo$1.0.9/src/components/click-count/index.marko"))});
+$_mod.run("/marko-starter-demo$1.0.9/src/components/click-count/index.marko.register");

@@ -1,0 +1,2 @@
+$_mod.def("/marko-starter-demo$1.0.9/src/routes/layouts/index.marko.init",function(o,n,i,t,e){window.$initComponents&&window.$initComponents()});
+$_mod.run("/marko-starter-demo$1.0.9/src/routes/layouts/index.marko.init");
