@@ -66,12 +66,12 @@ $_mod.def("/marko$4.4.28/dist/components/index-browser",function(o,n,t,e,s){var 
 $_mod.def("/marko$4.4.28/dist/components/renderer",function(_,r,t,o,n){function e(_,r,t){if("#"==r[0])return r.substring(1);return c.test(r)?_._t_(t,r):t+"-"+r}function i(_,r,t){var o=_.V_({});for(var n in o){var e=o[n];r.element(e.tagName,{id:n}),t._C_(n)}return _.l_(),!0}function a(_){var r=_.parentOut,t=_.out,o=r.data._B_;if(void 0!==o){var n=o._D_(t);t.data._B_=n}t._X_=r._X_}function s(_,r,t){t=t||{};var o=t.onInput,n=r.type,s=r.roots,u=r.id,p=!0===r.split,c=p;return function(r,$){var b=$.global;!1===$.isSync()&&(b[y]||(b[y]=!0,$.on("beginAsync",a)));var w,X,k,C=v($),Y=C.X_,x=Y.Y_,A=void 0!==x,B=u;if(x)B=x.id,w=!0,Y.Y_=null;else{var F=$._X_;if(F){$._X_=null,k=F[0],k&&(k=k.id);var O=F[1];null!=O&&(O=O.toString()),B=B||e(Y,O,k),X=F[2]}}if(B=B||C._u_(),g)x=l._w_(t,B,r,$,n,X,k),r=x._F_,x._F_=void 0;else{if(!x){if(A&&(x=d[B])&&x.g_!==n&&(x=void 0),x)w=!0;else if(w=!1,x=l._w_(n,B),!0===c){c=!1;var S="function"==typeof t?t.prototype:t;m(S,x.constructor.prototype)}if(x.C_=!0,void 0!==X&&x._g_(X,k),!1===w&&f(x,"create",r,$),r=x.O_(r,o,$),!0===w&&(!1===x.Q_||!1===x.shouldUpdate(r,x.r_)))return void i(x,$,Y)}x.A_=b,f(x,"render",$)}var U=C._E_(x,p);U.s_=s,U._o_=w,_(r,$,U,x,x._e_),U._r_()}}var u=_("/marko$4.4.28/dist/components/util-browser"),d=u.a_,f=u.b_,p=_("/marko$4.4.28/dist/components/ComponentsContext"),v=p.__,c=/\[\]$/,l=_("/marko$4.4.28/dist/components/registry-browser"),m=_("/raptor-util$3.2.0/copyProps"),g=!0===u._Y_,y="$wa";t.exports=s,s._U_=e,s._V_=i,s._W_=a});
 $_mod.def("/marko$4.4.28/dist/components/helpers-browser",function(o,e,r,n,s){o("/marko$4.4.28/dist/components/index-browser"),e.c=o("/marko$4.4.28/dist/components/defineComponent"),e.r=o("/marko$4.4.28/dist/components/renderer"),e.rc=o("/marko$4.4.28/dist/components/registry-browser")._P_});
 $_mod.def("/marko-starter-demo$1.0.9/src/components/click-count/component", function(require, exports, module, __filename, __dirname) { module.exports = {
-    onMount() {
-        console.log('on mount')
-    },
-    onUpdate() {
-      console.log('on update');
-    }
+  onMount() {
+    console.log("on mount");
+  },
+  onUpdate() {
+    console.log("on update");
+  }
 };
 
 });
